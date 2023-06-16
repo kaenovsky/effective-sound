@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">botonerareplay</string>
+    <color name="replayBg">#303030</color>
+</resources>
