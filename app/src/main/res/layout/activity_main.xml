@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="162dp"
-        android:layout_height="52dp"
+        android:layout_width="186dp"
+        android:layout_height="70dp"
         android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,11 +19,11 @@
 
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="80dp"
-        android:layout_height="90dp"
+        android:layout_width="114dp"
+        android:layout_height="121dp"
         android:layout_marginStart="53dp"
-        android:layout_marginTop="170dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginTop="250dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
         app:layout_constraintEnd_toStartOf="@+id/imageView2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -31,32 +31,34 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="80dp"
-        android:layout_height="90dp"
-        android:layout_marginTop="170dp"
-        android:layout_marginEnd="30dp"
+        android:layout_width="114dp"
+        android:layout_height="121dp"
+        android:layout_marginTop="250dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
         app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintStart_toEndOf="@+id/imageView1"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/age_btn" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="80dp"
-        android:layout_height="90dp"
-        android:layout_marginTop="170dp"
+        android:layout_width="114dp"
+        android:layout_height="121dp"
+        android:layout_marginTop="250dp"
         android:layout_marginEnd="58dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/abe_btn" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="80dp"
-        android:layout_height="90dp"
+        android:layout_width="114dp"
+        android:layout_height="121dp"
         android:layout_marginStart="53dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="30dp"
         android:onClick="btn_4"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
         app:layout_constraintEnd_toStartOf="@+id/imageView5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView1"
@@ -64,31 +66,32 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="80dp"
-        android:layout_height="90dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="30dp"
+        android:layout_width="114dp"
+        android:layout_height="121dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView8"
         app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:srcCompat="@drawable/grim_btn" />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="80dp"
-        android:layout_height="90dp"
-        android:layout_marginTop="30dp"
+        android:layout_width="114dp"
+        android:layout_height="121dp"
         android:layout_marginEnd="58dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView9"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
         app:srcCompat="@drawable/monkey_btn" />
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="80dp"
-        android:layout_height="90dp"
+        android:layout_width="114dp"
+        android:layout_height="121dp"
         android:layout_marginStart="53dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
@@ -96,21 +99,24 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="80dp"
-        android:layout_height="90dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="30dp"
+        android:layout_width="114dp"
+        android:layout_height="121dp"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView9"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
         app:layout_constraintTop_toBottomOf="@+id/imageView5"
         app:srcCompat="@drawable/pacman_btn" />
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="80dp"
-        android:layout_height="90dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="57dp"
+        android:layout_width="114dp"
+        android:layout_height="121dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
         app:srcCompat="@drawable/galaxian_btn" />
 
