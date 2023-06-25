@@ -8,4 +8,4 @@ El uso de la imagen de [Replay](https://revistareplay.com.ar/), la mítica revis
 
 ![demo de la app botonera replay](./snapshot.png)
 
-Podés descargar el instalador [haciendo click acá](https://github.com/kaenovsky/effective-sound/releases), buscá el último archivo .apk publicado. Al descargar el archivo e instalarlo en Android, vas a tener que aceptar que la [instalación desde una fuente desconocida](https://computerhoy.com/noticias/tecnologia/como-instalar-archivos-apk-fuentes-desconocidas-android-849473).
+Podés descargar el instalador [haciendo click acá](https://github.com/kaenovsky/effective-sound/releases), buscá el último archivo .apk publicado. Al descargar el archivo e instalarlo en Android, vas a tener que aceptar la [instalación desde una fuente desconocida](https://computerhoy.com/noticias/tecnologia/como-instalar-archivos-apk-fuentes-desconocidas-android-849473).
